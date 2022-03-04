@@ -1,0 +1,44 @@
+{
+    "name": "Manifest Example",
+    "short_name": "M.E.",
+    "dir": "ltr",
+    "start_url": "/fullscreen",
+    "display": "standalone",
+    "oriantation": "any",
+    "background_color": "#fff",
+    "description": "An example on how manifasting and service workers do their job.",
+    "icons": [
+        {
+            "src": "img/icons/icon142x142.png",
+            "sizes": "142x142",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/icon192x192.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/icon256x256.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "img/icons/telecommunication.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Memes",
+            "url": "/memes.html",
+            "description": "Meme overzicht"
+        },
+        {
+            "name": "Contact",
+            "url": "/contact.html",
+            "description": "Contact pagina"
+        }
+    ]
+}
